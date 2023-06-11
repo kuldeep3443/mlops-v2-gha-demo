@@ -7,8 +7,8 @@ variables:
   # Global
   ap_vm_image: ubuntu-20.04
 
-  namespace: kdmlopslite #Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
-  postfix: kdao04
+  namespace: kdmlops #Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
+  postfix: ao04
   location: westus
 
   environment: prod
